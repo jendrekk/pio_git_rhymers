@@ -2,7 +2,11 @@ package edu.kis.vh.nursery;
 
 public class fifoRhymer extends defaultCountingOutRhymer {
 
-    public defaultCountingOutRhymer temp = new defaultCountingOutRhymer();
+<<<<<<< HEAD
+    public final defaultCountingOutRhymer temp = new defaultCountingOutRhymer();
+=======
+	 public final defaultCountingOutRhymer temp = new defaultCountingOutRhymer();
+>>>>>>> 1972afb (dodanie stałych, final i annotacji @Override)
 
     @Override
     public int countOut() {
